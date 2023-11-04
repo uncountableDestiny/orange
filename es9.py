@@ -4,7 +4,7 @@ Write a program to check if the given number is a palindrome number.
 A palindrome number is a number that is the same after reverse. For example, 545, is the palindrome numbers """
 def check_palindrome(numb):
     str_num = str(numb)
-    if str_num == str_num[::-1]:
+    if str_num == str_num[::-1]: #reverse string
         return True
     else:
         return False
